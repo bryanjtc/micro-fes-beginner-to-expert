@@ -1,0 +1,19 @@
+{
+    "name": "micro-fest-beginner-to-expert",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "workspaces": [
+        "addtocart",
+        "cart",
+        "home",
+        "pdp",
+        "server"
+    ],
+    "scripts": {
+        "build:all": "yarn workspaces foreach -p run build"
+    },
+    "packageManager": "yarn@3.2.4"
+}
