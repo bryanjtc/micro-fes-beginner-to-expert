@@ -1,6 +1,8 @@
+Dockerfile
+.dockerignore
 node_modules
+npm-debug.log
 dist
-build
 .yarn/*
 !.yarn/cache
 !.yarn/patches
